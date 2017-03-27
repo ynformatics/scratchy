@@ -1,2 +1,2 @@
-# scratchy - a digital vinyl interface
-More details at http://ynformatics.com/2017/scratchy-digital-vinyl/
+# Scratchy - A Digital Vinyl Interface
+More details at https://ynformatics.com/2017/scratchy-digital-vinyl/
