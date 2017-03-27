@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    android:padding="8dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout1"
+        android:paddingBottom="20px"
+        android:paddingTop="10px">
+        <Button
+            android:text="@string/match"
+            android:layout_width="80.5dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/matchButton"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/linearLayout2"
+        android:paddingTop="10px">
+        <Button
+            android:text="@string/learn"
+            android:id="@+id/learnButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" />
+        <EditText
+            android:text=""
+            android:layout_width="273.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/songid"
+            android:hint="@string/songid"
+            android:inputType="none"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="51.0dp" />
+    </LinearLayout>
+</LinearLayout>
